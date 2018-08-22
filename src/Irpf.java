@@ -77,8 +77,6 @@ public class Irpf {
 
         newBase = base - desconto;
         double impDevido;
-        double imposto;
-        double imposto2;
         if (newBase < 10000) {
             impDevido = 0;
         } else if (newBase >= 10000 && newBase <= 20000) {
